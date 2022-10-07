@@ -17,3 +17,4 @@
  *    isEmpty()
  *
  */
+let q = new Queue()
