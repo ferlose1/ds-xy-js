@@ -5,12 +5,12 @@
 //
 
 function countDownToZero(n) {
-    if (n < 1) {//base case
-        return
-    } else {
-        console.log(n)
-        countDownToZero(n - 1)//recursive call
-    }
+  if (n < 1) {//base case
+    return
+  } else {
+    console.log(n)
+    countDownToZero(n - 1)//recursive call
+  }
 }
 
 countDownToZero(5)
